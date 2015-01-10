@@ -1,15 +1,24 @@
-# Audio
-etc/audio_policy.conf
-etc/mixer_paths.xml
-
-# Audio BLOBS
-lib/hw/audio.primary.msm8974.so
-
 # Audio ACDB
+etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb
+etc/acdbdata/Fluid/Fluid_General_cal.acdb
+etc/acdbdata/Fluid/Fluid_Global_cal.acdb
+etc/acdbdata/Fluid/Fluid_Handset_cal.acdb
+etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb
+etc/acdbdata/Fluid/Fluid_Headset_cal.acdb
 etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb
+etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb
+etc/acdbdata/Liquid/Liquid_General_cal.acdb
+etc/acdbdata/Liquid/Liquid_Global_cal.acdb
 etc/acdbdata/Liquid/Liquid_Handset_cal.acdb
+etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb
+etc/acdbdata/Liquid/Liquid_Headset_cal.acdb
 etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb
+etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+etc/acdbdata/MTP/MTP_General_cal.acdb
+etc/acdbdata/MTP/MTP_Global_cal.acdb
 etc/acdbdata/MTP/MTP_Handset_cal.acdb
+etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+etc/acdbdata/MTP/MTP_Headset_cal.acdb
 etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
 # ADSP
@@ -28,23 +37,96 @@ etc/firmware/adsp.b11
 etc/firmware/adsp.b12
 etc/firmware/adsp.mdt
 
+# Bluetooth
+etc/firmware/BCM43xx.hcd
+
 # Camera
 etc/flashled_calc_parameters.cfg
-lib/libcald_hal.so
 lib/libcameralight.so
+lib/libcammw.so
+vendor/camera/SOI20BS0/cam_ctrl.dat
+vendor/camera/SOI20BS0/motion_estimation.dat
+vendor/camera/SOI20BS0/snapshot_ctrl.dat
+vendor/camera/SOI20BS0/dataflow.dat
+vendor/camera/SOI20BS0/hal_ctrl.dat
+vendor/camera/SOI20BS0/module.dat
+vendor/camera/SOI20BS0/image_conv.dat
+vendor/camera/SOI20BS0/chokoball.dat
+vendor/camera/SOI20BS0/lens_ctrl.dat
+vendor/camera/SOI20BS0/cap_ctrl.dat
+vendor/camera/SOI20BS0/scene_detector.dat
+vendor/camera/SOI20BS0/multiframe_nr.dat
+vendor/camera/SOI20BS0/imgproc.dat
+vendor/camera/SOI20BS0/debug_mgr.dat
+vendor/camera/SOI20BS0/hdr_comp.dat
+vendor/camera/SOI20BS0/focus_stats_conv.dat
+vendor/camera/SOI20BS0/hal_ctrl_platform.dat
+vendor/camera/SOI20BS0/idt_ctrl.dat
+vendor/camera/SOI20BS0/jpeg_enc.dat
+vendor/camera/SOI20BS0/flicker_detector.dat
+vendor/camera/SOI20BS0/object_tracker.dat
+vendor/camera/SOI20BS0/exposure_ctrl.dat
+vendor/camera/SOI20BS0/face_detector.dat
+vendor/camera/SOI20BS0/color_ctrl.dat
+vendor/camera/SOI20BS0/streaming_ctrl.dat
+vendor/camera/SOI20BS0_BU64296GWX.dat
+vendor/camera/SEM02BN1/cam_ctrl.dat
+vendor/camera/SEM02BN1/motion_estimation.dat
+vendor/camera/SEM02BN1/snapshot_ctrl.dat
+vendor/camera/SEM02BN1/dataflow.dat
+vendor/camera/SEM02BN1/hal_ctrl.dat
+vendor/camera/SEM02BN1/module.dat
+vendor/camera/SEM02BN1/image_conv.dat
+vendor/camera/SEM02BN1/chokoball.dat
+vendor/camera/SEM02BN1/lens_ctrl.dat
+vendor/camera/SEM02BN1/cap_ctrl.dat
+vendor/camera/SEM02BN1/scene_detector.dat
+vendor/camera/SEM02BN1/multiframe_nr.dat
+vendor/camera/SEM02BN1/imgproc.dat
+vendor/camera/SEM02BN1/debug_mgr.dat
+vendor/camera/SEM02BN1/hdr_comp.dat
+vendor/camera/SEM02BN1/focus_stats_conv.dat
+vendor/camera/SEM02BN1/hal_ctrl_platform.dat
+vendor/camera/SEM02BN1/idt_ctrl.dat
+vendor/camera/SEM02BN1/jpeg_enc.dat
+vendor/camera/SEM02BN1/flicker_detector.dat
+vendor/camera/SEM02BN1/object_tracker.dat
+vendor/camera/SEM02BN1/exposure_ctrl.dat
+vendor/camera/SEM02BN1/face_detector.dat
+vendor/camera/SEM02BN1/color_ctrl.dat
+vendor/camera/SEM02BN1/streaming_ctrl.dat
+vendor/camera/jpeg_fsc.dat
+vendor/camera/SOI20BS0_IMX200.dat
 vendor/camera/flash.dat
-vendor/camera/LGI02BN1_CACAO.dat
-vendor/camera/LGI02BN1.dat
-vendor/camera/LGI02BN1_IMX132.dat
 vendor/camera/product_CACAO.dat
 vendor/camera/product.dat
-vendor/camera/SEM02BN1_CACAO.dat
-vendor/camera/SEM02BN1.dat
+vendor/camera/LGI02BN1_IMX132.dat
 vendor/camera/SEM02BN1_IMX132.dat
-vendor/camera/SOI20BS0_BU64296GWX.dat
-vendor/camera/SOI20BS0_CACAO.dat
-vendor/camera/SOI20BS0.dat
-vendor/camera/SOI20BS0_IMX200.dat
+vendor/camera/LGI02BN1/cam_ctrl.dat
+vendor/camera/LGI02BN1/motion_estimation.dat
+vendor/camera/LGI02BN1/snapshot_ctrl.dat
+vendor/camera/LGI02BN1/dataflow.dat
+vendor/camera/LGI02BN1/hal_ctrl.dat
+vendor/camera/LGI02BN1/module.dat
+vendor/camera/LGI02BN1/image_conv.dat
+vendor/camera/LGI02BN1/chokoball.dat
+vendor/camera/LGI02BN1/lens_ctrl.dat
+vendor/camera/LGI02BN1/cap_ctrl.dat
+vendor/camera/LGI02BN1/scene_detector.dat
+vendor/camera/LGI02BN1/multiframe_nr.dat
+vendor/camera/LGI02BN1/imgproc.dat
+vendor/camera/LGI02BN1/debug_mgr.dat
+vendor/camera/LGI02BN1/hdr_comp.dat
+vendor/camera/LGI02BN1/focus_stats_conv.dat
+vendor/camera/LGI02BN1/hal_ctrl_platform.dat
+vendor/camera/LGI02BN1/idt_ctrl.dat
+vendor/camera/LGI02BN1/jpeg_enc.dat
+vendor/camera/LGI02BN1/flicker_detector.dat
+vendor/camera/LGI02BN1/object_tracker.dat
+vendor/camera/LGI02BN1/exposure_ctrl.dat
+vendor/camera/LGI02BN1/face_detector.dat
+vendor/camera/LGI02BN1/color_ctrl.dat
+vendor/camera/LGI02BN1/streaming_ctrl.dat
 vendor/lib/libmmcamera2_iface_modules.so
 vendor/lib/libmmcamera2_imglib_modules.so
 vendor/lib/libmmcamera2_isp_modules.so
@@ -53,14 +135,21 @@ vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/liboemcamera.so
 
-# Leds
-bin/illumination_service
+# HDCP
+etc/firmware/tzhdcp.b00
+etc/firmware/tzhdcp.b01
+etc/firmware/tzhdcp.b02
+etc/firmware/tzhdcp.b03
+etc/firmware/tzhdcp.mdt
 
 # Misc
 bin/chargemon
 bin/updatemiscta
 
 # Modem
+bin/sct_service
+etc/firmware/mba.b00
+etc/firmware/mba.mdt
 etc/firmware/modem.b00
 etc/firmware/modem.b01
 etc/firmware/modem.b02
@@ -102,13 +191,6 @@ bin/suntrold
 bin/sensors.qcom
 vendor/lib/libsensor1.so
 etc/sensor_def_qcomdev.conf
-etc/sensors_calib.conf
-
-# Sysmon
-etc/sysmon.cfg
-lib/libsysmon_jni.so
-lib/sysmon/sysmon_torch_limit.so
-lib/sysmon/sysmon_v_therm2.so
 
 # TFA98XX DSP
 etc/sforce/sforce_coef_music.bin
@@ -144,36 +226,14 @@ etc/tfa98xx/VoiceCallSpeaker_top.eq
 etc/tfa98xx/VoiceCallSpeaker_top.preset
 
 # TouchScreen
-etc/firmware/touch_chip_id_0x75_config_id_0x0108.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x0109.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x010a.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x0118.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x0119.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x011a.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x0141.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x0142.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x0151.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x0152.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x0181.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x0191.bin
 etc/firmware/touch_chip_id_0x75_config_id_0x0241.bin
 etc/firmware/touch_chip_id_0x75_config_id_0x0251.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x0281.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x0291.bin
-etc/firmware/touch_chip_id_0x75_config_id_0x0395.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0108.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0109.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x010c.bin
-etc/firmware/touch_chip_id_0x78_config_id_0x010e.bin
-etc/firmware/touch_chip_id_0x78_config_id_0x0118.bin
-etc/firmware/touch_chip_id_0x78_config_id_0x0119.bin
-etc/firmware/touch_chip_id_0x78_config_id_0x0141.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0146.bin
-etc/firmware/touch_chip_id_0x78_config_id_0x0148.bin
-etc/firmware/touch_chip_id_0x78_config_id_0x0149.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0151.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0154.bin
-etc/firmware/touch_chip_id_0x78_config_id_0x0156.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0158.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0159.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x015c.bin
@@ -181,21 +241,18 @@ etc/firmware/touch_chip_id_0x78_config_id_0x0181.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0184.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0188.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0189.bin
-etc/firmware/touch_chip_id_0x78_config_id_0x018b.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x018c.bin
-etc/firmware/touch_chip_id_0x78_config_id_0x018d.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0191.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0198.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0199.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0241.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0244.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0246.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0247.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0251.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0254.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0256.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0257.bin
-etc/firmware/touch_chip_id_0x78_config_id_0x0399.bin
-etc/firmware/touch_chip_id_0x78_config_id_0x039d.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0408.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0409.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x040b.bin
@@ -219,3 +276,5 @@ usr/idc/max1187x_touchscreen_0.idc
 
 # WiFi firmware
 etc/firmware/wlan/bcmdhd/bcmdhd.cal
+etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin
+etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin
