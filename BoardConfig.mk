@@ -27,6 +27,12 @@ BOARD_HARDWARE_CLASS += device/sony/sirius/cmhw
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := cm_shinano_sirius_defconfig
+TARGET_GCC_VERSION_ARM := 4.9-sm
+
+# Validus optimisations
+SYMMETRY := true
+GRAPHITE_OPTS := true
+STRICT_ALIASING := true
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 25
@@ -38,3 +44,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/sony/sirius
 # SELinux
 BOARD_SEPOLICY_DIRS += \
     device/sony/sirius/sepolicy
+
+# Validus changelog
+VALIDUS_CHANGELOG := true
